@@ -1,0 +1,30 @@
+.DS_Store
+__pycache__/
+*.pyc
+.env
+.csv
+node_modules/
+
+# 📁 데이터 파일 무시
+*.csv
+*.rds
+*.RData
+
+# 📁 이미지, 리포트, 중간 결과 무시
+*.png
+*.pdf
+*.txt
+*.html
+
+# 📁 결과 폴더 무시
+cleaned_data/
+figures/
+reports/
+analysis_results/
+publication_figures/
+
+# ⚙️ RStudio 환경 파일 무시
+.Rproj.user/
+.Rapp.history
+.Rhistory
+
